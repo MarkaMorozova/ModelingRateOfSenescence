@@ -24,7 +24,8 @@ Columns in the ```data/df.csv``` are:
 <br>**HSSEX**: Sex (1: Male, 2: Female)
 <br>**MORTSTAT**: Final status (0: Alive or censored, 1: Died)
 <br>**PERMTH_EXM**': Time spent from examination to MORTSTAT Event
-<br>**Biomarkers:**
+
+**Biomarkers:**
 <br>**CRP**: Serum C-reactive protein (mg/dL)
 <br>**CEP**: Serum creatinine (mg/dL)
 <br>**GHP**: Glycated hemoglobin: (%)
