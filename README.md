@@ -1,4 +1,4 @@
-![image](https://github.com/MarkaMorozova/ModelingRateOfSenescence/assets/109670403/de009b9e-b612-441d-8f9f-bc3712b1cd64)# Modeling Rate Of Senescence
+# Modeling Rate Of Senescence
 This repository contatins reproduction of the paper of Levine, M. E. (2012). **Modeling the Rate of Senescence: Can Estimated Biological Age Predict Mortality More Accurately Than Chronological Age?** The Journals of Gerontology Series A: Biological Sciences and Medical Sciences, 68(6), 667–674. [doi:10.1093/gerona/gls233](https://pubmed.ncbi.nlm.nih.gov/23213031/)
 
 Notes and modifications:
