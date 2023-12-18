@@ -1,0 +1,8 @@
+Download the data yourself
+- lab.dat https://wwwn.cdc.gov/nchs/data/nhanes3/1a/lab.dat
+- exam.dat https://wwwn.cdc.gov/nchs/data/nhanes3/1a/exam.dat
+- adult.dat https://wwwn.cdc.gov/nchs/data/nhanes3/1a/adult.dat
+
+Already uploaded to the /data
+- cmv.xpt https://wwwn.cdc.gov/nchs/data/nhanes3/19a/cmv.xpt
+- NHANES_III_MORT_2019_PUBLIC.dat https://ftp.cdc.gov/pub/Health_Statistics/NCHS/datalinkage/linked_mortality/NHANES_III_MORT_2019_PUBLIC.dat
