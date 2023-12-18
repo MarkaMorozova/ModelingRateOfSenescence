@@ -14,7 +14,7 @@ Datafiles have specific format - each line of ```.dat``` file correspond to a pa
 ## 2. Data aggregation 
 In this section all dataframes from ```.dat``` and ```.xpt``` are merged by SEQN variable (participant's ID). Resulting dataframe is filtered by Age (30-75 y.o.), Pearson's correlations between Chronological age and variables are calculated, 10 best variable are chosen. Rows containing NaNs are dropped.
 
-Resulting dataframe was saved for reproducible results:
+Resulting dataframe was saved for reproducible results (```data/df.csv```).
 
 Columns in the ```data/df.csv``` are:
 
@@ -26,7 +26,7 @@ Columns in the ```data/df.csv``` are:
 <br>**CRP**: Serum C-reactive protein (mg/dL)
 <br>**CEP**: Serum creatinine (mg/dL)
 <br>**GHP**: Glycated hemoglobin: (%)
-<br>**HAZMNK1R**: Average K1 BP from household and MEC
+<br>**HAZMNK1R**: Average K1 BP from household and MEC (systolic blood pressure)
 <br>**AMP**: Serum albumin (g/dL)
 <br>**TCP**: Serum cholesterol (mg/dL)
 <br>**CVP_IGG**: Cytomegalovirus optical density
