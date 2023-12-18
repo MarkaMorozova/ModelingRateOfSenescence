@@ -56,6 +56,9 @@ First PCA component was used as Biological Age estimator. Note that authors used
 ### 4.2 Multiple linear regression (MLR)
 MLR was used to predict Chronological Age from the 10 Biomarkers. Resulting MLR predictions are Biological Age estimations.
 ### 4.3 Klemera and Doubal’s method (KDM)
+
+![](pictures/KDM_formulas.png)
+
 The formulas (2), (3), (4) and (5) from the paper implemented. Note, that in formulas: $x_j$ is a set of biomarker values, $k_j$ is a slope, $q_j$ is intercept, $s_j$ i a root mean squared error of a biomarker regressed on chronological age, $m$ is number of biomarkers used.
 
 **Table 3** is reproduced.
