@@ -37,6 +37,10 @@ Columns in the ```data/df.csv``` are:
 ## 3. Analysis
 **Tables 1, 2** are reproduced. Note that I have got slighly different number of participants and Pearson's R values - I suppose the dataset was slighly modified from the time when article was published. 
 
+Original             |  Reproduced
+:-------------------------:|:-------------------------:
+![](tables/table1_original.png)  |  ![](tables/table1_reproduced.png)
+
 ## 4. Bilogical Age estimates
 
 ### 4.1 Principal component analysis (PCA)
