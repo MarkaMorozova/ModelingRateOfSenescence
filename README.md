@@ -18,11 +18,13 @@ Resulting dataframe was saved for reproducible results (```data/df.csv```).
 
 Columns in the ```data/df.csv``` are:
 
-**SEQN**: participant's ID
+**Age and Event:**
+<br>**SEQN**: participant's ID
 <br>**HSAGEIR**: Age
 <br>**HSSEX**: Sex (1: Male, 2: Female)
 <br>**MORTSTAT**: Final status (0: Alive or censored, 1: Died)
 <br>**PERMTH_EXM**': Time spent from examination to MORTSTAT Event
+<br>**Biomarkers:**
 <br>**CRP**: Serum C-reactive protein (mg/dL)
 <br>**CEP**: Serum creatinine (mg/dL)
 <br>**GHP**: Glycated hemoglobin: (%)
