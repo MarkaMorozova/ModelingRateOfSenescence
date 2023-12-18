@@ -6,7 +6,7 @@ Notes and modifications:
 - In the original paper, variable "Cytomegalovirus optical density" was used, and this variable is not available in current version of NHANES III for all people (only for women) so I replaced it with variable CVP_IGG from "Antibody to Cytomegalovirus IgG and IgM" surplus dataset
 - In the original paper, 2006 Mortality Data was used which is archived and not available now so I used current version of [2019 Linked Mortality Files](https://www.cdc.gov/nchs/data-linkage/mortality-public.htm)
 
-# Sections of the Jupyter Notebook
+# Sections of the Jupyter Notebook ModelingRateOfSenescence.ipynb
 
 ## 1. Reading NHANES III datafiles (lab.dat, exam.dat, adult.dat, cmv.xpt, NHANES_III_MORT_2019_PUBLIC.dat)
 Datafiles have specific format - each line of ```.dat``` file correspond to a participant, there is some sequence of numbers, blanks or repeating 8, 9 etc in each line. In corresponding ```.sas``` files, there is description which variables correspond to which indices in the line. I collected all the indices of variables used in the article in this notebook section.
