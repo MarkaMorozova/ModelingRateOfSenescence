@@ -60,7 +60,7 @@ The formulas (2), (3), (4) and (5) from the paper implemented. Note, that in for
 
 **Table 3** is reproduced.
 
-Original Table 3           |  Reproduced Table 3   
+Original Table 3           |  Reproduced Table 3 (only models with 10 biomarkers)
 :-------------------------:|:-------------------------:
 ![](tables/table3_original.png)  |  ![](tables/table3_reproduced.png)
 
