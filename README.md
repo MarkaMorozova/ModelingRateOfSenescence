@@ -20,7 +20,7 @@ Columns in the ```data/df.csv``` are:
 
 **SEQN**: participant's ID
 <br>**HSAGEIR**: Age
-<br>**HSSEX**: Sex (1: Male, 2:Female)
+<br>**HSSEX**: Sex (1: Male, 2: Female)
 <br>**MORTSTAT**: Final status (0: Alive or censored, 1: Died)
 <br>**PERMTH_EXM**': Time spent from examination to MORTSTAT Event
 <br>**CRP**: Serum C-reactive protein (mg/dL)
@@ -33,3 +33,11 @@ Columns in the ```data/df.csv``` are:
 <br>**APPSI**: Serum alkaline phosphatase:  SI (U/L)
 <br>**SPPFEV05**: Forced expiratory vol(FEV),.5 sec,max-ml
 <br>**BUP**: Serum blood urea nitrogen (mg/dL)
+
+## 3. Analysis
+Tables 1, 2 are reproduced.
+
+## 4. Bilogical Age estimates
+### 4.1 Principal component analysis
+### 4.2 Multiple linear regression
+### 4.3 Klemera and Doubal’s method
