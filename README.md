@@ -19,8 +19,7 @@ Resulting dataframe was saved for reproducible results:
 Columns in the ```data/df.csv``` are:
 
 **SEQN**: participant's ID
-
-**HSAGEIR**: Age
+<br>**HSAGEIR**: Age
 
 **HSSEX**: Sex (1: Male, 2:Female)
 
