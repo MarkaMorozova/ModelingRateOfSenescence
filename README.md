@@ -37,9 +37,14 @@ Columns in the ```data/df.csv``` are:
 ## 3. Analysis
 **Tables 1, 2** are reproduced. Note that I have got slighly different number of participants and Pearson's R values - I suppose the dataset was slighly modified from the time when article was published. 
 
-Original             |  Reproduced
+Original Table 1           |  Reproduced Table 1   
 :-------------------------:|:-------------------------:
 ![](tables/table1_original.png)  |  ![](tables/table1_reproduced.png)
+
+
+Original Table 2           |  Reproduced Table 2   
+:-------------------------:|:-------------------------:
+![](tables/table2_original.png)  |  ![](tables/table2_reproduced.png)
 
 ## 4. Bilogical Age estimates
 
@@ -52,8 +57,20 @@ The formulas (2), (3), (4) and (5) from the paper implemented. Note, that in for
 
 **Table 3** is reproduced.
 
+Original Table 3           |  Reproduced Table 3   
+:-------------------------:|:-------------------------:
+![](tables/table3_original.png)  |  ![](tables/table3_reproduced.png)
+
 ## 5.Bilogical Age estimates and mortality
 Mortality risk was the last available value of cumulative hazard function (```cph.predict_cumulative_hazard(Cox_train)```) or inverse of survival function (```1-cph.predict_survival_function(Cox_train)```). These approaches to define mortality risk are identical and result in identical ROC-AUC curves and ROC-AUC scores.
 
 ## 6. ROC-AUC stratified by age groups
 **Tables 4, 5** are reproduced.
+
+Original Table 4           |  Reproduced Table 4   
+:-------------------------:|:-------------------------:
+![](tables/table3_original.png)  |  ![](tables/table3_reproduced.png)
+
+Original Table 5           |  Reproduced Table 5   
+:-------------------------:|:-------------------------:
+![](tables/table3_original.png)  |  ![](tables/table3_reproduced.png)
