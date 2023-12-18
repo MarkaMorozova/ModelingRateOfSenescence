@@ -4,7 +4,7 @@ This repository contatins reproduction of the paper of Levine, M. E. (2012). **M
 Notes and modifications:
 - In the paper, NHANES III dataset (1988-1994) was used which is available by the [link](https://wwwn.cdc.gov/nchs/nhanes/nhanes3/datafiles.aspx)
 - In the original paper, variable "Cytomegalovirus optical density" was used, and this variable is not available in current version of NHANES III for all people (only for women) so I replaced it with variable CVP_IGG from "Antibody to Cytomegalovirus IgG and IgM" surplus dataset
-- In the original paper, 2006 Mortality Data was used which is archived and not available now sow I used current version of [2019 Linked Mortality Files](https://www.cdc.gov/nchs/data-linkage/mortality-public.htm)
+- In the original paper, 2006 Mortality Data was used which is archived and not available now so I used current version of [2019 Linked Mortality Files](https://www.cdc.gov/nchs/data-linkage/mortality-public.htm)
 
 # Sections of the Jupyter Notebook
 
@@ -35,9 +35,21 @@ Columns in the ```data/df.csv``` are:
 <br>**BUP**: Serum blood urea nitrogen (mg/dL)
 
 ## 3. Analysis
-Tables 1, 2 are reproduced.
+**Tables 1, 2** are reproduced. Note that I have got slighly different number of participants and Pearson's R values - I suppose the dataset was slighly modified from the time when article was published. 
 
 ## 4. Bilogical Age estimates
-### 4.1 Principal component analysis
-### 4.2 Multiple linear regression
-### 4.3 Klemera and Doubal’s method
+
+### 4.1 Principal component analysis (PCA)
+First PCA component was used as Biological Age estimator. Note that authors used some undefined method to investigate the significance of variable's influence on the first principal component and chose 7 statistically significant variables based on that to test Biological Age models with limited number of Biomarkers. I tested variable's influence on the first PCA by Pearson's correlation - and all 10 biomarkers significantly correlated with the first PCA so I did not reproduce their limites models.
+### 4.2 Multiple linear regression (MLR)
+MLR was used to predict Chronological Age from the 10 Biomarkers. Resulting MLR predictions are Biological Age estimations.
+### 4.3 Klemera and Doubal’s method (KDM)
+The formulas (2), (3), (4) and (5) from the paper implemented. Note, that in formulas: $x_j$ is a set of biomarker values, $k_j$ is a slope, $q_j$ is intercept, $s_j$ i a root mean squared error of a biomarker regressed on chronological age, $m$ is number of biomarkers used.
+
+**Table 3** is reproduced.
+
+## 5.Bilogical Age estimates and mortality
+Mortality risk was the last available value of cumulative hazard function (```cph.predict_cumulative_hazard(Cox_train)```) or inverse of survival function (```1-cph.predict_survival_function(Cox_train)```). These approaches to define mortality risk are identical and result in identical ROC-AUC curves and ROC-AUC scores.
+
+## 6. ROC-AUC stratified by age groups
+**Tables 4, 5** are reproduced.
