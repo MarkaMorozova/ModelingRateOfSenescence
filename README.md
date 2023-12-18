@@ -9,7 +9,7 @@ Notes and modifications:
 # Sections of the Jupyter Notebook
 
 ## 1. Reading NHANES III datafiles (lab.dat, exam.dat, adult.dat, cmv.xpt, NHANES_III_MORT_2019_PUBLIC.dat)
-Datafiles have specific format - each line of ```.dat``` file correspond to a participant, there is some sequence of numbers, blanks in each line or repeating 8, 9 etc. In corresponding ```.sas``` files, there is description which variables correspond to which indices in the line. I collected all the indices of variables used in the article in this notebook section.
+Datafiles have specific format - each line of ```.dat``` file correspond to a participant, there is some sequence of numbers, blanks or repeating 8, 9 etc in each line. In corresponding ```.sas``` files, there is description which variables correspond to which indices in the line. I collected all the indices of variables used in the article in this notebook section.
 
 ## 2. Data aggregation 
 In this section all dataframes from ```.dat``` and ```.xpt``` are merged by SEQN variable (participant's ID). Resulting dataframe is filtered by Age (30-75 y.o.), Pearson's correlations between Chronological age and variables are calculated, 10 best variable are chosen. Rows containing NaNs are dropped.
