@@ -69,8 +69,8 @@ Mortality risk was the last available value of cumulative hazard function (```cp
 
 Original Table 4           |  Reproduced Table 4   
 :-------------------------:|:-------------------------:
-![](tables/table3_original.png)  |  ![](tables/table3_reproduced.png)
+![](tables/table4_original.png)  |  ![](tables/table4_reproduced.png)
 
 Original Table 5           |  Reproduced Table 5   
 :-------------------------:|:-------------------------:
-![](tables/table3_original.png)  |  ![](tables/table3_reproduced.png)
+![](tables/table5_original.png)  |  ![](tables/table5_reproduced.png)
