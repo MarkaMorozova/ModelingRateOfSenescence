@@ -18,18 +18,32 @@ Resulting dataframe was saved for reproducible results:
 
 Columns in the ```data/df.csv``` are:
 
-**SEQN**: participant's ID\ 
-**HSAGEIR**: Age\ 
-**HSSEX**: Sex (1: Male, 2:Female)\ 
-**MORTSTAT**: Final status (0: Alive or censored, 1: Died)\ 
-**PERMTH_EXM**': Time spent from examination to MORTSTAT Event\ 
-**CRP**: Serum C-reactive protein (mg/dL)\ 
-**CEP**: Serum creatinine (mg/dL)\ 
-**GHP**: Glycated hemoglobin: (%)\ 
-**HAZMNK1R**: Average K1 BP from household and MEC\ 
-**AMP**: Serum albumin (g/dL)\ 
-**TCP**: Serum cholesterol (mg/dL)\ 
-**CVP_IGG**: Cytomegalovirus optical density\ 
-**APPSI**: Serum alkaline phosphatase:  SI (U/L)\ 
-**SPPFEV05**: Forced expiratory vol(FEV),.5 sec,max-ml\ 
+**SEQN**: participant's ID
+
+**HSAGEIR**: Age
+
+**HSSEX**: Sex (1: Male, 2:Female)
+
+**MORTSTAT**: Final status (0: Alive or censored, 1: Died)
+
+**PERMTH_EXM**': Time spent from examination to MORTSTAT Event
+
+**CRP**: Serum C-reactive protein (mg/dL)
+
+**CEP**: Serum creatinine (mg/dL)
+
+**GHP**: Glycated hemoglobin: (%)
+
+**HAZMNK1R**: Average K1 BP from household and MEC
+
+**AMP**: Serum albumin (g/dL)
+
+**TCP**: Serum cholesterol (mg/dL)
+
+**CVP_IGG**: Cytomegalovirus optical density
+
+**APPSI**: Serum alkaline phosphatase:  SI (U/L)
+
+**SPPFEV05**: Forced expiratory vol(FEV),.5 sec,max-ml
+
 **BUP**: Serum blood urea nitrogen (mg/dL)
